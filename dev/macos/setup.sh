@@ -5,4 +5,4 @@ set -ex
 conda config --set changeps1 true
 # install all test requirements
 conda install --yes --name conda-test-env --file tests/requirements.txt --file tests/requirements-s3.txt
-conda update --yes openssl ca-certificates certifi
+conda update --yes openssl ca-certificates certifi sqlite
