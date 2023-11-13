@@ -2900,7 +2900,7 @@ def test_run_script_called():
             "graphviz",
             "--no-deps",
         ) as prefix:
-            assert package_is_installed(prefix, "python.app")
+            assert package_is_installed(prefix, "graphviz")
             assert rs.call_count == 1
 
 
