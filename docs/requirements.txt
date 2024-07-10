@@ -22,3 +22,4 @@ sphinxcontrib-programoutput==0.17
 sphinxcontrib-qthelp==1.0.6
 sphinxcontrib-serializinghtml==1.1.9
 tqdm>=4
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
